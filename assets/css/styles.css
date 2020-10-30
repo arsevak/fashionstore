@@ -1,0 +1,274 @@
+@media (max-width: 360px) {
+    #banner_h {
+        height:270px;
+        object-fit:contain;
+    }
+}
+
+@media (min-width: 361px) and (max-width: 576px) {
+    #banner_h {
+        height:400px;
+        object-fit:contain;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    #banner_h {
+        height:450px;
+        object-fit:contain;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    #banner_h {
+        height:450px;
+        object-fit:contain;
+    }
+}
+
+@media (min-width: 993px) {
+    #banner_h {
+        height:600px;
+        object-fit:contain;
+    }
+}
+
+#body_font {
+    font-family:'Aldrich';
+}
+
+.div_head_boxes {
+    min-height:30px;
+    padding:2px;
+    width:auto;
+    min-width:30px;
+}
+
+#first {
+    background:black;
+    width:auto;
+    position:relative;
+    margin:0 auto;
+    line-height:1.4em;
+    text-align:center;
+}
+
+#first #second {
+    width:98%;
+    background:white;
+    position:relative;
+    margin-top:33px;
+    margin-bottom:10px;
+    display:inline-block;
+}
+
+@media (max-width: 360px) {
+    #first #second {
+        width:95%;
+        background:white;
+        position:relative;
+        margin-top:33px;
+        margin-bottom:10px;
+        display:inline-block;
+    }
+}
+
+@media (max-width: 576px) {
+    #first #second {
+        width:95%;
+        background:white;
+        position:relative;
+        margin-top:33px;
+        margin-bottom:10px;
+        display:inline-block;
+    }
+}
+
+#first #second #third {
+    height:auto;
+    background:black;
+    position:relative;
+}
+
+
+
+@media (min-width: 993px) {
+    #rel_img {
+        position:relative;
+        max-width:60%;
+        bottom:36px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    #rel_img {
+        position:relative;
+        max-width:60%;
+        bottom:45px;
+    }
+}
+
+
+@media (min-width: 577px) and (max-width: 768px) {
+    #rel_img {
+        position:relative;
+        max-width:50%;
+        bottom:17px;
+    }
+}
+
+@media (min-width: 361px) and (max-width: 576px) {
+    #rel_img {
+        position:relative;
+        max-width:50%;
+        bottom:17px;
+    }
+}
+
+@media (max-width: 360px) {
+    #rel_img {
+        position:relative;
+        max-width:50%;
+        bottom:17px;
+    }
+}
+
+#cont_head {
+    width:inherit;
+}
+
+#huge_cont {
+    width:inherit;
+    height:inherit;
+}
+
+#grey_border {
+    border-style:solid;
+    border-top-color:rgb(123,123,123);
+    border-top-width:medium;
+    border-bottom-color:black;
+    border-left-color:black;
+    border-right-color:black;
+    color:white;
+    text-align:center;
+}
+
+#toggle_but {
+    background-color:#ffffff;
+}
+
+#jumbotron_home_cloth {
+    padding:2rem 1rem;
+    border-radius:.3rem;
+    background-image:url("Cotton_2.png");
+    background-size:cover;
+}
+
+#jumbotron_home_cloth_text {
+    padding:2rem 1rem;
+}
+
+@media (min-width:576px) {
+    #jumbotron_home_cloth {
+        padding:4rem 2rem;
+    }
+}
+
+.jumbotron_cloth {
+    padding:2rem 1rem;
+    background-image:url("../../assets/img/lycraBan.jpg");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    color:white;
+}
+
+@media (min-width:576px) {
+    .jumbotron_cloth {
+        padding:4rem 2rem;
+    }
+}
+
+#f_offer {
+    background-color:#b03060;
+    height:240px;
+    color:white;
+    text-align:center;
+}
+
+#s_offer {
+    background-color:#4169e1;
+    height:240px;
+    color:white;
+    text-align:center;
+}
+
+#t_offer {
+    background-color:#30b0b0;
+    height:240px;
+    color:white;
+    text-align:center;
+}
+
+#offer_al {
+    margin-top:50px;
+    font-size:24px;
+}
+
+@media (max-width: 361px) {
+    #offer_al {
+        font-size:18px;
+    }
+}
+
+@media (min-width: 362) and (max-width: 577px) {
+    #offer_al {
+        margin-top:20px;
+    }
+}
+
+.jumbotron_wel {
+    padding:2rem 1rem;
+    background-color:#000000;
+    color:white;
+}
+
+#motto_al {
+    max-width:100%;
+    margin:15px;
+}
+
+@media (max-width: 600px) {
+    #first {
+        width:100%;
+        background:black;
+        position:relative;
+        margin:0 auto;
+        line-height:1.4em;
+    }
+}
+
+#font_prodPage {
+    font-family:'Aldrich';
+}
+
+#foot_bord {
+    border-top-color:white;
+    border-top-width:thin;
+    border-top-style:solid;
+}
+
+#LAB {
+    color:white;
+    text-align:center;
+    font-size:xx-large;
+    font-family:'Constantia';
+}
+
+@media (max-width: 360px){
+    #LAB {
+        color:white;
+        text-align:center;
+        font-size:larger;
+        font-family:'Constantia';
+    }
+}
